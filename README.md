@@ -1,16 +1,16 @@
-# LanggGraph Practice Projects
+# LangGraph Practice Projects
 
-A collection of practice projects for learning and exploring LanggGraph, a framework for building stateful, multi-actor applications with large language models.
+A collection of practice projects for learning and exploring LangGraph, a framework for building stateful, multi-actor applications with large language models.
 
 ## Project Overview
 
-This repository contains hands-on labs that demonstrate core LanggGraph concepts, from basic graph construction to building interactive AI chatbots.
+This repository contains hands-on labs that demonstrate core LangGraph concepts, from basic graph construction to building interactive AI chatbots.
 
 ## Project Structure
 
 ```
-├── 01_lab.ipynb      # Lab 1: Simple LanggGraph State Graph
-├── 02_lab.ipynb      # Lab 2: LanggGraph Chatbot with OpenAI
+├── 01_lab.ipynb      # Lab 1: Simple LangGraph State Graph
+├── 02_lab.ipynb      # Lab 2: LangGraph Chatbot with OpenAI
 ├── main.py           # Main entry point
 ├── pyproject.toml    # Project configuration
 ├── requirements.txt  # Python dependencies
@@ -28,20 +28,20 @@ This repository contains hands-on labs that demonstrate core LanggGraph concepts
 - Compile and visualize the graph
 
 **What it does:**
-- Creates a simple LanggGraph with a single node
+- Creates a simple LangGraph with a single node
 - The node randomly selects a country and capital from predefined lists
 - Returns formatted output as a message
 - Includes a Gradio chat interface for interaction
 
-### Lab 2: LanggGraph Chatbot (`02_lab.ipynb`)
+### Lab 2: LangGraph Chatbot (`02_lab.ipynb`)
 
 **Learning Objectives:**
-- Integrate OpenAI's ChatGPT with LanggGraph
-- Build an interactive chatbot using LanggGraph
+- Integrate OpenAI's ChatGPT with LangGraph
+- Build an interactive chatbot using LangGraph
 - Create a web interface with Gradio
 
 **What it does:**
-- Creates a LanggGraph with a chatbot node powered by GPT-4o
+- Creates a LangGraph with a chatbot node powered by GPT-4o
 - Processes user messages through the OpenAI API
 - Provides responses in a Gradio chat interface
 - Demonstrates message handling in stateful graphs
@@ -80,13 +80,13 @@ This repository contains hands-on labs that demonstrate core LanggGraph concepts
 ### Lab 1: Simple State Graph
 Open `01_lab.ipynb` in Jupyter or VS Code and run the cells sequentially. The final cell launches a Gradio chat interface.
 
-### Lab 2: LanggGraph Chatbot
+### Lab 2: LangGraph Chatbot
 Open `02_lab.ipynb` in Jupyter or VS Code and run the cells sequentially. The final cell launches a Gradio chat interface with AI-powered responses.
 
 ## Dependencies
 
 The project includes the following key dependencies:
-- **langgraph** - Core LanggGraph framework
+- **langgraph** - Core LangGraph framework
 - **langchain** - LLM framework and utilities
 - **langchain-openai** - OpenAI integration
 - **langchain-community** - Community integrations
@@ -124,11 +124,11 @@ See `requirements.txt` for the complete list with versions.
 2. Review the cell outputs and visualizations
 3. Modify the examples (e.g., change the list of countries/capitals in Lab 1)
 4. Experiment with different prompts in Lab 2
-5. Explore the LanggGraph documentation for advanced patterns
+5. Explore the LangGraph documentation for advanced patterns
 
 ## Resources
 
-- [LanggGraph Documentation](https://langchain-ai.github.io/langgraph/)
+- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
 - [LangChain Documentation](https://python.langchain.com/)
 - [OpenAI API Documentation](https://platform.openai.com/docs/)
 - [Gradio Documentation](https://gradio.app/)
