@@ -1,0 +1,10 @@
+langchain
+openai
+pydantic
+python-dotenv
+requests
+langchain-openai
+langgraph
+langchain-community
+ipython
+gradio
